@@ -1,0 +1,36 @@
+.form
+  &__search
+    margin-bottom: 15px
+
+    &-label
+      margin-right: 20px
+
+    &-input
+      width: 180px
+      height: 30px
+      box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15)
+      border: none
+      border-radius: 4px
+      font-size: 12px
+      padding: 0 15px
+      transition: 0.3s all
+
+
+      &:focus
+        box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15)
+
+      &::placeholder
+        text-align: center
+
+
+.filter-wrap
+  width: 80%
+  margin: 0 auto 30px
+  display: flex
+  justify-content: space-between
+
+  @media(max-width: 992px)
+    width: 100%
+    flex-direction: column
+    justify-content: center
+    align-items: center
